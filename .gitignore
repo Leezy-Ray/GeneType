@@ -1,0 +1,36 @@
+# 构建输出
+/build
+/dist
+/data
+# Python 字节码与缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# 安装/打包产物
+*.egg
+*.egg-info/
+.eggs/
+*.manifest
+
+# 虚拟环境
+venv/
+.venv/
+env/
+.env/
+
+# PyInstaller 临时文件
+*.spec.bak
+
+# 测试与覆盖率
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+*.cover
+
+# 类型检查
+.mypy_cache/
+.dmypy.json
+dmypy.json
