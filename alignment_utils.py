@@ -16,11 +16,11 @@
 
 from typing import List, Tuple, Optional
 
-# parasail - 首选库
+# parasail - 首选库（打包 exe 时若 parasail.dll 未就绪则回退到其他比对）
 try:
     import parasail
     HAS_PARASAIL = True
-except ImportError:
+except Exception:
     HAS_PARASAIL = False
 
 # 可选：pairwise-sequence-alignment (EMBOSS needle/water)
