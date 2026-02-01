@@ -62,7 +62,6 @@ python genotype_analyzer.py <参考序列.dna> <测序文件1.ab1> [测序文件
 | `alignment_utils.py` | 序列比对工具（Smith-Waterman，支持 parasail / Biopython）。 |
 | `pysanger.py` | Sanger 色谱解析（基于 PySanger）。 |
 | `requirements.txt` | Python 依赖列表。 |
-| `known_polymorphisms.txt` | 已知多态性位点配置。 |
 | `GeneType.spec` | PyInstaller 打包配置。 |
 | `build_exe.bat` | Windows 下一键打包脚本。 |
 | `data/` | 示例数据与验证相关文件（见下方）。 |
